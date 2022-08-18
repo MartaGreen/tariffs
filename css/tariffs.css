@@ -1,0 +1,88 @@
+.tariffs {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.tariffs__offer {
+  position: relative;
+
+  width: 280px;
+  height: 840px;
+
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #bbbbbb;
+  margin: 0 13.5px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.tariffs__offer:first-of-type {
+  margin-left: 0;
+}
+.tariffs__offer:last-of-type {
+  margin-right: 0;
+}
+
+.offer__title {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 37px;
+  color: #bd0231;
+  margin: 42px 0 50px 0;
+}
+
+.offer__features {
+  list-style: none;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.offer__feature {
+  color: #17304a;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 20px 0;
+}
+
+.offer__footer {
+  position: absolute;
+  bottom: 50px;
+  left: 19%;
+}
+
+.offer__sales {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 20px 0;
+}
+.offer__sales_marked {
+  text-decoration: line-through;
+}
+
+.offer__btn {
+  width: 157.33px;
+  height: 62px;
+  background: #bd0231;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tariffs__offer_free {
+  height: 738px;
+}
+
+.tariffs__offer_free .offer__title {
+  margin: 42px 0 86px 0;
+}
+
+.tariffs__offer_free .offer__footer {
+  bottom: 33px;
+  left: 23%;
+}
