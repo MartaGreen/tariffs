@@ -47,6 +47,7 @@
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
 }
 
 .offer__sales {
