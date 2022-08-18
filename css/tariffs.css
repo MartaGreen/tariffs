@@ -70,6 +70,13 @@
   line-height: 22px;
   text-align: center;
   color: #ffffff;
+  transition: 0.3s;
+}
+.offer__btn:hover {
+  border: 1px solid #bd0231;
+  color: #bd0231;
+  background: #ffffff;
+  cursor: pointer;
 }
 
 .tariffs__offer_free {
