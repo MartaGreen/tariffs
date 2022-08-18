@@ -1,0 +1,83 @@
+@media screen and (max-width: 678px) {
+  .description {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .tariffs {
+    width: 96%;
+  }
+
+  .tariffs__offer {
+    padding: 10px 0;
+    height: 720px;
+    margin: 10px auto;
+  }
+  .tariffs__offer_free {
+    height: 500px;
+  }
+
+  .offer__img {
+    width: 100%;
+  }
+
+  .offer__title {
+    font-size: 13px;
+    margin: 10px 0 !important;
+  }
+
+  .offer__feature {
+    font-size: 12px;
+  }
+
+  .offer__footer {
+    width: 96%;
+  }
+
+  .offer__sales {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+
+  .offer__btn {
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .title {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .description {
+    width: 90%;
+    font-weight: normal;
+  }
+}

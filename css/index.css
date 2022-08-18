@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1217px;
+  max-width: 1245px;
   width: 100%;
   margin: 50px auto;
   text-align: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .description {
-  width: 64.5%;
+  width: 63%;
   display: inline-block;
   font-size: 14px;
   line-height: 22px;
