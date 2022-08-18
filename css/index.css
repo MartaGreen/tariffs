@@ -1,0 +1,41 @@
+body {
+  max-width: 2560px;
+  width: 100vw;
+  min-width: 130px;
+  min-height: 100vh;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+  color: #17304a;
+}
+
+.wrapper {
+  max-width: 1216px;
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 46px;
+  line-height: 55px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.title_marked {
+  color: #bd0231;
+}
+
+.description {
+  width: 64.5%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
